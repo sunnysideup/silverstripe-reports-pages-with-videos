@@ -1,0 +1,32 @@
+{
+    "name": "sunnysideup/reports-pages-with-videos",
+    "type": "silverstripe-vendormodule",
+    "description": "Find pages with videos using the Silverstripe Report class",
+    "keywords": [
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
+        "reports",
+        "videos",
+        "youtube",
+        "vimeo",
+        "iframe"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nicolaas Francken",
+            "email": "modules@sunnysideup.co.nz",
+            "role": "lead developer"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "~4@stable"
+    },
+    "extra": [],
+    "autoload": {
+        "psr-4": {
+            "Sunnysideup\\ReportsPagesWithVideos\\": "src/"
+        }
+    }
+}
